@@ -3,7 +3,7 @@
     <div v-if="loading" class="preloader">
       <div class="preloader__wrap">
         <div class="logo">
-          <img src="/img/png/logo.png" alt="..."/>
+          <img src="/logo/logo.png" alt="..." />
         </div>
       </div>
     </div>
@@ -14,17 +14,17 @@
 export default {
   name: "Loading",
   data: () => ({
-    loading: false
+    loading: false,
   }),
   methods: {
     start() {
-      this.loading = true
+      this.loading = true;
     },
     finish() {
-      this.loading = false
-    }
-  }
-}
+      this.loading = false;
+    },
+  },
+};
 </script>
 
 <style scoped lang="scss">
@@ -70,7 +70,7 @@ export default {
         width: 100%;
       }
 
-      @media (max-width:600px) {
+      @media (max-width: 600px) {
         padding: 8vw;
       }
     }
@@ -79,37 +79,37 @@ export default {
 
 @-webkit-keyframes cssAnimation {
   0% {
-    -webkit-transform: rotate(0deg) scale(1)
+    -webkit-transform: rotate(0deg) scale(1);
   }
   50% {
-    -webkit-transform: rotate(0deg) scale(1.2)
+    -webkit-transform: rotate(0deg) scale(1.2);
   }
   100% {
-    -webkit-transform: rotate(0deg) scale(1)
+    -webkit-transform: rotate(0deg) scale(1);
   }
 }
 
 @-moz-keyframes cssAnimation {
   0% {
-    -webkit-transform: rotate(0deg) scale(1)
+    -webkit-transform: rotate(0deg) scale(1);
   }
   50% {
-    -webkit-transform: rotate(0deg) scale(1.2)
+    -webkit-transform: rotate(0deg) scale(1.2);
   }
   100% {
-    -webkit-transform: rotate(0deg) scale(1)
+    -webkit-transform: rotate(0deg) scale(1);
   }
 }
 
 @-o-keyframes cssAnimation {
   0% {
-    -webkit-transform: rotate(0deg) scale(1)
+    -webkit-transform: rotate(0deg) scale(1);
   }
   50% {
-    -webkit-transform: rotate(0deg) scale(1.2)
+    -webkit-transform: rotate(0deg) scale(1.2);
   }
   100% {
-    -webkit-transform: rotate(0deg) scale(1)
+    -webkit-transform: rotate(0deg) scale(1);
   }
 }
 </style>
