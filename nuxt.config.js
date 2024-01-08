@@ -47,7 +47,7 @@ export default {
       {
         hid: "twitter:url",
         name: "twitter:url",
-        content: "https://gsys.uz",
+        content: "https://gsys.netlify.app/",
       },
       {
         hid: "twitter:title",
@@ -68,7 +68,11 @@ export default {
 
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
-      { hid: "og:url", property: "og:site_url", content: "https://gsys.uz" },
+      {
+        hid: "og:url",
+        property: "og:site_url",
+        content: "https://gsys.netlify.app/",
+      },
       // {hid: "og:site_name", property: "og:site_name", content: "Banking-technology.uz"},
       {
         hid: "og:site_name",
@@ -80,7 +84,7 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: "https://gsys.uz",
+        content: "https://gsys.netlify.app/",
       },
       {
         hid: "og:title",
