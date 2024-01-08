@@ -2,7 +2,7 @@
   <section
     class="home-categories"
     style="
-      background-image: url('https://www.ssstc.com/media/tz_portfolio/article/cache/60c9c04229416tz_portfolio_1623834690-146_o.jpg');
+      background-image: url('https://cdni.iconscout.com/illustration/premium/thumb/people-waiting-at-atm-queue-4538632-3793573.png');
     "
   >
     <div

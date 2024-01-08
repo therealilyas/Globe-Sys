@@ -71,22 +71,49 @@
                 <AppText size="14" line-height="24" weight="500" class="mr-20"
                   >{{ $t("weInSocialMedia") }}:</AppText
                 >
-                <div class="socials__wrap">
-                  <a href="#" class="socials__item">
-                    <img src="/img/png/telegram.png" alt="" />
-                  </a>
+                <div class="news_socials-wrap">
+                  <div class="social-share-btns-instagram">
+                    <div class="social-share-btns">
+                      <a
+                        class="share-btn share-btn-mail"
+                        href="https://t.me/gsys_uz"
+                        rel="nofollow"
+                        target="_blank"
+                        title="via email"
+                      >
+                        <i class="ion-paper-airplane"></i>
+                        Telegram
+                      </a>
+                      <a
+                        class="share-btn share-btn-instagram"
+                        href="https://www.instagram.com/btechuz.official/"
+                        rel="nofollow"
+                        target="_blank"
+                      >
+                        <i class="ion-social-instagram"></i>
+                        Instagram
+                      </a>
+                      <a
+                        class="share-btn share-btn-facebook"
+                        href=""
+                        rel="nofollow"
+                        target="_blank"
+                      >
+                        <i class="ion-social-facebook"></i>
+                        Facebook
+                      </a>
 
-                  <a href="#" class="socials__item">
-                    <img src="/img/png/facebook.png" alt="" />
-                  </a>
-
-                  <a href="#" class="socials__item">
-                    <img src="/img/png/instagram.png" alt="" />
-                  </a>
-
-                  <a href="#" class="socials__item">
-                    <img src="/img/png/twitter.png" alt="" />
-                  </a>
+                      <a
+                        class="share-btn share-btn-youtube"
+                        href=""
+                        rel="nofollow"
+                        target="_blank"
+                      >
+                        <i class="ion-social-youtube"></i>
+                        Youtube
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -154,13 +181,13 @@ export default {
           name: this.$t("contactName2"),
           status: this.$t("contactStatus2"),
           tell: this.$t("contactTell2"),
-          mail: "ismailov.i@btech.uz",
+          mail: "dilshod.khasanov@gsys.uz",
         },
         {
           name: this.$t("contactName9"),
           status: this.$t("contactStatus9"),
           tell: this.$t("contactTell9"),
-          mail: "farrux.inakov@btech.uz",
+          mail: "kozimjon.toyirov@gsys.uz",
         },
         // {
         //   name: this.$t('contactName10'),
@@ -168,59 +195,12 @@ export default {
         //   tell: this.$t('contactTell10'),
         //   mail: "hasanov.d@btech.uz",
         // },
-        {
-          name: this.$t("contactName12"),
-          status: this.$t("contactStatus12"),
-          tell: this.$t("contactTell12"),
-          mail: "nodir@mail.ru",
-        },
+
         {
           name: this.$t("contactName3"),
           status: this.$t("contactStatus3"),
           tell: this.$t("contactTell3"),
-          mail: "a.zaprometov@btech.uz",
-        },
-        {
-          name: this.$t("contactName5"),
-          status: this.$t("contactStatus5"),
-          tell: this.$t("contactTell5"),
-          mail: "khalmatov.a@btech.uz",
-        },
-        {
-          name: this.$t("contactName4"),
-          status: this.$t("contactStatus4"),
-          tell: this.$t("contactTell4"),
-          mail: "j.tolaganov@btech.uz",
-        },
-        {
-          name: this.$t("contactName7"),
-          status: this.$t("contactStatus7"),
-          tell: this.$t("contactTell7"),
-          mail: "yuldashev.d@btech.uz",
-        },
-        {
-          name: this.$t("contactName11"),
-          status: this.$t("contactStatus11"),
-          tell: this.$t("contactTell11"),
-          mail: "userbayev.n@btech.uz",
-        },
-        {
-          name: this.$t("contactName6"),
-          status: this.$t("contactStatus6"),
-          tell: this.$t("contactTell6"),
-          mail: "toyirov.k@btech.uz",
-        },
-        {
-          name: this.$t("contactName"),
-          status: this.$t("contactStatus"),
-          tell: this.$t("contactTell"),
-          mail: "u.bekmirzaeva@btech.uz",
-        },
-        {
-          name: this.$t("contactName8"),
-          status: this.$t("contactStatus8"),
-          tell: this.$t("contactTell8"),
-          mail: "n.baxramova@btech.uz",
+          mail: "mirfozil.miryunusov@gsys.uz",
         },
       ],
     };
@@ -262,5 +242,75 @@ export default {
       grid-template-columns: 1fr;
     }
   }
+}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.social-share-btns-container {
+  overflow: hidden;
+  font-size: 0;
+  margin: -30px 0;
+  text-align: center;
+  width: 100%;
+  z-index: 111;
+}
+
+.social-share-btns {
+  display: inline-block;
+  overflow: hidden;
+}
+.social-share-btns .share-btn {
+  float: left;
+  margin: 0 5px;
+  padding: 8px 16px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  vertical-align: middle;
+  -moz-transition: background 0.2s ease-in-out;
+  -o-transition: background 0.2s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+.social-share-btns .share-btn i {
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.share-btn {
+  background-color: #95a5a6;
+}
+.share-btn:hover {
+  background-color: #798d8f;
+}
+
+.share-btn-instagram {
+  background-color: #dd2a7b;
+}
+.share-btn-instagram:hover {
+  background-color: #810d41;
+}
+
+.share-btn-facebook {
+  background-color: #3b5998;
+}
+.share-btn-facebook:hover {
+  background-color: #2d4373;
+}
+
+.share-btn-youtube {
+  background-color: #ed001c;
+}
+.share-btn-youtube:hover {
+  background-color: #ba0016;
+}
+
+.share-btn-mail {
+  background-color: #0088cc;
+}
+.share-btn-mail:hover {
+  background-color: #084b6d;
 }
 </style>

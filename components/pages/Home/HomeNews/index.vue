@@ -59,7 +59,7 @@ export default {
       lastNews: [
         {
           id: 1,
-          image_url: `/img/depositphotos.jpg`,
+          image_url: `https://www.trevenacross.co.uk/wp-content/uploads/2019/03/Job-Vacancy.jpg`,
           category_name: this.$t("category_name"),
           create_at: "26.07.2023",
           title: this.$t("newsTitle"),
@@ -68,7 +68,7 @@ export default {
         },
         {
           id: 2,
-          image_url: `/img/kpi.jpg`,
+          image_url: `https://neiros.ru/img/kpi/chto-takoe-kpi.png`,
           category_name: this.$t("category_name"),
           create_at: "03.07.2023",
           title: this.$t("newsTitle2"),
@@ -77,7 +77,7 @@ export default {
         },
         {
           id: 3,
-          image_url: `/img/billing.jpg`,
+          image_url: `https://legodesk.com/wp-content/uploads/2021/07/Difference-Between-Billing-and-InvoiceCover-Photo-1024x576.png`,
           category_name: this.$t("category_name"),
           create_at: "24.06.2023",
           title: this.$t("newsTitle3"),
@@ -86,7 +86,7 @@ export default {
         },
         {
           id: 4,
-          image_url: `/img/depositphotos.jpg`,
+          image_url: `https://www.trevenacross.co.uk/wp-content/uploads/2019/03/Job-Vacancy.jpg`,
           category_name: this.$t("category_name"),
           create_at: "26.07.2023",
           title: this.$t("newsTitle"),
@@ -95,7 +95,7 @@ export default {
         },
         {
           id: 5,
-          image_url: `/img/kpi.jpg`,
+          image_url: `https://neiros.ru/img/kpi/chto-takoe-kpi.png`,
           category_name: this.$t("category_name"),
           create_at: "03.07.2023",
           title: this.$t("newsTitle2"),
@@ -104,7 +104,7 @@ export default {
         },
         {
           id: 6,
-          image_url: `/img/billing.jpg`,
+          image_url: `https://legodesk.com/wp-content/uploads/2021/07/Difference-Between-Billing-and-InvoiceCover-Photo-1024x576.png`,
           category_name: this.$t("category_name"),
           create_at: "24.06.2023",
           title: this.$t("newsTitle3"),
