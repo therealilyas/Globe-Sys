@@ -34,7 +34,7 @@ export default {
       {
         hid: "image",
         name: "image",
-        content: "favicon.ico",
+        content: "/img/logo_avatar.png",
       },
       // Twitter
       // Test on: https://cards-dev.twitter.com/validator
@@ -47,7 +47,7 @@ export default {
       {
         hid: "twitter:url",
         name: "twitter:url",
-        content: "https://gsys.netlify.app/",
+        content: "/img/logo_avatar.png",
       },
       {
         hid: "twitter:title",
@@ -63,7 +63,7 @@ export default {
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "favicon.ico",
+        content: "/img/logo_avatar.png",
       },
 
       // Open Graph
@@ -100,12 +100,12 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "favicon.ico",
+        content: "/img/logo_avatar.png",
       },
       {
         hid: "og:image:secure_url",
         property: "og:image:secure_url",
-        content: "favicon.ico",
+        content: "/img/logo_avatar.png",
       },
       {
         hid: "og:image:alt",
