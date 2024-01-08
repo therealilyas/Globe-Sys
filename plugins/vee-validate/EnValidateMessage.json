@@ -1,0 +1,8 @@
+{
+  "messages": {
+    "required": "This field '{_field_}' is required for the record",
+    "min": "The field '{_field_}' must be at least {length}",
+    "max": "The field '{_field_}' must be no more than {length}",
+    "email": "The field '{_field_}' must be email"
+  }
+}

@@ -1,0 +1,157 @@
+.input__block {
+  position: relative;
+
+  &.disabled {
+    opacity: .5;
+    pointer-events: none;
+  }
+
+  &-label {
+
+    &.error {
+      .input__block-wrap {
+        border-color: red;
+
+        .input__block-error {
+          display: block;
+        }
+
+      }
+    }
+  }
+
+  &-title {
+    display: inline-flex;
+    font-size: 16px;
+
+    margin-bottom: 10px;
+  }
+
+  &-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #C4C1C9;
+    border-radius: 10px;
+
+    &.error {
+      border-color: red;
+    }
+
+    &.focus-visible {
+      border: 0.1rem solid black!important;
+    }
+  }
+
+  &-prepend {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin: 5px 10px;
+      width: 2rem;
+    }
+  }
+
+  &-append {
+    order: 3;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+    & + .input__block-input {
+      //padding-left: 0;
+    }
+
+    svg {
+      margin: 5px 10px;
+      width: 2rem;
+    }
+  }
+
+  &-input {
+    border-radius: 10px;
+    flex: 1 1 auto;
+    width: 1%;
+    border: none!important;
+    order: 2;
+    height: 48px;
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  &-textarea {
+    border-radius: 10px;
+    flex: 1 1 auto;
+    width: 1%;
+    border: none!important;
+    order: 2;
+    font-size: 18px;
+    padding: 10px 15px;
+    outline: none;
+  }
+
+
+  &-both .input__block-input,
+  &-both .input__block-textarea{
+    border: 1px solid #C4C1C9;
+  }
+
+  &-error {
+
+  }
+
+}
+
+.input__details {
+  min-height: 25px;
+
+  span {
+    -webkit-animation: slide-in-right 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: red;
+    font-size: 14px;
+    padding-top: 0.4rem;
+  }
+}
+
+.input__holder {
+  margin-bottom: 0.5rem;
+
+  &:last-child {
+    min-height: auto;
+  }
+
+}
+
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(100rem);
+    transform: translateX(100rem);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(10rem);
+    transform: translateX(10rem);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

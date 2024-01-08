@@ -1,0 +1,70 @@
+@import "../variables";
+
+.app-slider {
+  position: relative;
+  width: 100%;
+
+  &__button-next,
+  &__button-previous {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__button-previous {
+    position: absolute;
+    left: -80px;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    border: 1px solid var(--color-border);
+    box-shadow: none;
+    padding: 5px 10px;
+    background-color: white;
+    opacity: 1;
+    color: var(--color-main);
+
+    &:hover {
+      background-color: var(--color-main);
+      color: white;
+      border-color: var(--color-main);
+    }
+
+    @media (max-width: 1500px) {
+      display: none;
+    }
+
+  }
+
+  &__button-next {
+    position: absolute;
+    right: -80px;
+    transform: translateY(-50%);
+    box-shadow: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--color-border);
+    background-color: white;
+    opacity: 1;
+    color: var(--color-main);
+
+    &:hover {
+      background-color: var(--color-main);
+      color: white;
+      border-color: var(--color-main);
+    }
+
+    @media (max-width: 1500px) {
+      display: none;
+    }
+
+  }
+
+}
+
+.splide__slider {
+  position: relative;
+}
+
+.splide__list {
+  align-items: center;
+}

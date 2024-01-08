@@ -1,0 +1,88 @@
+@import "animations";
+
+
+.container {
+  max-width: 1260px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.section {
+  padding: 130px 0;
+
+  &__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 991px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .section__top-left {
+        margin-bottom: 30px;
+      }
+    }
+
+    &-left {
+      max-width: 650px;
+    }
+  }
+
+  &__bg {
+    background-color: var(--color-bg);
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: var(--color-main);
+
+    &-content {
+      text-align: center;
+
+    }
+  }
+}
+
+.block {
+  &__wrap {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 30px 70px;
+    align-items: center;
+  }
+
+  &__content {
+
+  }
+
+  &__photo {
+    padding-left: 0;
+    max-height: 480px;
+    height: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.vue-map-container .vue-map {
+  width: 100%!important;
+  height: 545px!important;
+  position: relative!important;
+}

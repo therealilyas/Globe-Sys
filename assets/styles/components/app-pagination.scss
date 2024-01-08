@@ -1,0 +1,51 @@
+$radius: 4px;
+
+.app-pagination {
+  display: flex;
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px !important;
+    height: 36px !important;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+    &:hover:not(&--disabled),
+    &--selected {
+      background-color: #0e7dc2;
+      color: #fff;
+    }
+
+    svg {
+      path {
+        stroke: #000;
+      }
+    }
+
+    &:hover {
+      svg {
+        path {
+          stroke: #0e7dc2;
+        }
+      }
+    }
+
+    &--disabled {
+      cursor: not-allowed;
+      background-color: transparent;
+      color: red;
+    }
+
+    &--prev {
+      border-radius: $radius 0 0 $radius;
+    }
+
+    &--next {
+      border-radius: 0 $radius $radius 0;
+    }
+  }
+}

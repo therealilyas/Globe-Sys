@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("MuseoSansCyrl-300.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("MuseoSansCyrl-500.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("MuseoSansCyrl-700.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "MuseoSansCyrl";
+  src: url("MuseoSansCyrl-900.ttf");
+  font-weight: 700;
+}

@@ -1,0 +1,21 @@
+.base-radio {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border: 1px solid rgba(24, 24, 24, 0.2);
+  background-color: #fff;
+  cursor: pointer;
+  user-select: none;
+  &__input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  &--selected {
+    border: 1px solid $color-main;
+    background: radial-gradient(at center, $color-main, $color-main 50%, #fff 52%);
+  }
+  &--focused {
+    box-shadow: 0 0 0 3px rgba($color-main, 0.3);
+  }
+}

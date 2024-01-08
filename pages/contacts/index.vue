@@ -1,0 +1,266 @@
+<template>
+  <div>
+    <div class="section__details">
+      <div class="section__details-content">
+        <AppText
+          :size="isMobileMedium ? 28 : isDesktopSmall ? 32 : 42"
+          :line-height="isMobileMedium ? 32 : isDesktopSmall ? 42 : 50"
+          weight="700"
+          class="color-white mb-10"
+        >
+          {{ $t("contacts") }}
+        </AppText>
+
+        <AppBreadcrumbs :list="breadcrumbs" />
+      </div>
+    </div>
+    <div class="container">
+      <section class="section">
+        <div class="contacts">
+          <div
+            class="contacts__wrap"
+            :class="isMobileMedium ? 'mb-70' : 'mb-110'"
+          >
+            <div class="contacts__column">
+              <BlockWrap
+                :count="isMobileSmall ? 1 : 1"
+                :offset-y="isMobileSmall ? 30 : 50"
+                offset-x="50"
+                class="mb-60"
+              >
+                <div
+                  class="contacts__item"
+                  v-for="(item, idx) in infos"
+                  :key="idx"
+                >
+                  <AppText
+                    :size="isMobileMedium ? 16 : 18"
+                    :line-height="isMobileMedium ? 20 : 22"
+                    weight="700"
+                    class="mb-20"
+                    >{{ item.name }}
+                  </AppText>
+
+                  <AppText size="16" line-height="24">
+                    {{ item.status }}
+                  </AppText>
+
+                  <AppText size="14" line-height="24" class="mt-10">
+                    <DynamicIcon
+                      icon="phone"
+                      class="mr-10"
+                      size="16"
+                      color="#0E7DC2"
+                    />
+                    {{ item.tell }}
+                  </AppText>
+
+                  <AppText size="14" line-height="24" class="mt-10">
+                    <DynamicIcon
+                      icon="mail"
+                      class="mr-10"
+                      size="16"
+                      color="#0E7DC2"
+                    />
+                    {{ item.mail }}
+                  </AppText>
+                </div>
+              </BlockWrap>
+
+              <div class="socials">
+                <AppText size="14" line-height="24" weight="500" class="mr-20"
+                  >{{ $t("weInSocialMedia") }}:</AppText
+                >
+                <div class="socials__wrap">
+                  <a href="#" class="socials__item">
+                    <img src="/img/png/telegram.png" alt="" />
+                  </a>
+
+                  <a href="#" class="socials__item">
+                    <img src="/img/png/facebook.png" alt="" />
+                  </a>
+
+                  <a href="#" class="socials__item">
+                    <img src="/img/png/instagram.png" alt="" />
+                  </a>
+
+                  <a href="#" class="socials__item">
+                    <img src="/img/png/twitter.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="contacts__column">
+              <CallBack />
+            </div>
+          </div>
+
+          <div class="map" style="overflow: hidden; border-radius: 14px">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.3523380847173!2d69.25944683269192!3d41.32295116752836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b6b6a75727b%3A0x7a8a432ac744f01!2zNzgg0YPQu9C40YbQsCDQkNCx0LTRg9C70LvQsCDQmtCw0LTRi9GA0LgsINCi0LDRiNC60LXQvdGCLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1633351852389!5m2!1sru!2s"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</template>
+
+<script>
+import AppBreadcrumbs from "../../components/shared-components/AppBreadcrumbs";
+import AppInput from "../../components/shared-components/AppInput";
+import AppButton from "../../components/shared-components/AppButton";
+import BlockWrap from "../../components/shared-components/BlockWrap";
+import CallBack from "../../components/pages/CallBack";
+import DynamicIcon from "../../components/shared-components/DynamicIcon";
+import { headFunction } from "../../utils/pureFunctions";
+
+export default {
+  name: "index",
+  components: {
+    BlockWrap,
+    AppButton,
+    AppInput,
+    AppBreadcrumbs,
+    CallBack,
+    DynamicIcon,
+  },
+  head() {
+    const data = {
+      title: this.$t("howToGetHere"),
+      description: this.$t("howToGetHere"),
+    };
+    return headFunction(data);
+  },
+  data() {
+    return {
+      breadcrumbs: [
+        {
+          title: this.$t("home"),
+          path: "/",
+        },
+        {
+          title: this.$t("contacts"),
+          path: "/contacts",
+        },
+      ],
+      infos: [
+        {
+          name: this.$t("contactName2"),
+          status: this.$t("contactStatus2"),
+          tell: this.$t("contactTell2"),
+          mail: "ismailov.i@btech.uz",
+        },
+        {
+          name: this.$t("contactName9"),
+          status: this.$t("contactStatus9"),
+          tell: this.$t("contactTell9"),
+          mail: "farrux.inakov@btech.uz",
+        },
+        // {
+        //   name: this.$t('contactName10'),
+        //   status: this.$t('contactStatus10'),
+        //   tell: this.$t('contactTell10'),
+        //   mail: "hasanov.d@btech.uz",
+        // },
+        {
+          name: this.$t("contactName12"),
+          status: this.$t("contactStatus12"),
+          tell: this.$t("contactTell12"),
+          mail: "nodir@mail.ru",
+        },
+        {
+          name: this.$t("contactName3"),
+          status: this.$t("contactStatus3"),
+          tell: this.$t("contactTell3"),
+          mail: "a.zaprometov@btech.uz",
+        },
+        {
+          name: this.$t("contactName5"),
+          status: this.$t("contactStatus5"),
+          tell: this.$t("contactTell5"),
+          mail: "khalmatov.a@btech.uz",
+        },
+        {
+          name: this.$t("contactName4"),
+          status: this.$t("contactStatus4"),
+          tell: this.$t("contactTell4"),
+          mail: "j.tolaganov@btech.uz",
+        },
+        {
+          name: this.$t("contactName7"),
+          status: this.$t("contactStatus7"),
+          tell: this.$t("contactTell7"),
+          mail: "yuldashev.d@btech.uz",
+        },
+        {
+          name: this.$t("contactName11"),
+          status: this.$t("contactStatus11"),
+          tell: this.$t("contactTell11"),
+          mail: "userbayev.n@btech.uz",
+        },
+        {
+          name: this.$t("contactName6"),
+          status: this.$t("contactStatus6"),
+          tell: this.$t("contactTell6"),
+          mail: "toyirov.k@btech.uz",
+        },
+        {
+          name: this.$t("contactName"),
+          status: this.$t("contactStatus"),
+          tell: this.$t("contactTell"),
+          mail: "u.bekmirzaeva@btech.uz",
+        },
+        {
+          name: this.$t("contactName8"),
+          status: this.$t("contactStatus8"),
+          tell: this.$t("contactTell8"),
+          mail: "n.baxramova@btech.uz",
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.contacts {
+  &__wrap {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-gap: 50px 50px;
+  }
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    margin: 10px 0 10px 15px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .contacts {
+    &__wrap {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+</style>
