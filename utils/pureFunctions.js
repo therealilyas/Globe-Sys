@@ -1,5 +1,7 @@
 export const headFunction = (data = {}) => {
-  const title = data.title || "Banking technology услуг по обслуживанию и ремонту банковского оборудования";
+  const title =
+    data.title ||
+    "Globe Sys Support услуг по обслуживанию и ремонту банковского оборудования";
   const meta = [];
   if (data.title) {
     const title = [
@@ -67,16 +69,15 @@ export const headFunction = (data = {}) => {
     meta.push(...image);
   }
 
-  return { title,  meta };
+  return { title, meta };
 };
 
-
 export function debounce(fn, delay) {
-  let timeout = null
+  let timeout = null;
   return function (...args) {
-    clearTimeout(timeout)
+    clearTimeout(timeout);
     timeout = setTimeout(() => {
-      fn.apply(this, args)
-    }, delay)
-  }
+      fn.apply(this, args);
+    }, delay);
+  };
 }

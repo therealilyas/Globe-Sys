@@ -3,7 +3,7 @@ import ru from "../plugins/vee-validate/RuValidateMessage.json";
 export default {
   validation: ru.messages,
 
-  mainTitle: "Banking technology - банкомат инфокиоск pos-терминала",
+  mainTitle: "Globe Sys Support - банкомат инфокиоск pos-терминала",
   home: "Главная",
   tariffsAndServices: "Тарифы и услуги",
   news: "Новости",
@@ -83,11 +83,11 @@ export default {
   selectList: "Выберите из списка",
   learnMore: "Узнать больше",
   goodsDelivered: "Здельный товаров",
-  serviceCompany: "Banking technology",
-  pickupPoints: "Пункты выдачи\n" + "Banking Technology",
+  serviceCompany: "Globe Sys Support",
+  pickupPoints: "Пункты выдачи\n" + "Globe Sys Support",
   onlineShoppings: "Для интернет \n" + "магазинов",
-  expressPost: "Экспресс sth\n" + "Banking Technology",
-  directMachine: "Прямая машина\n" + "Banking Technology",
+  expressPost: "Экспресс sth\n" + "Globe Sys Support",
+  directMachine: "Прямая машина\n" + "Globe Sys Support",
 
   latestNews: "Последние Новости",
   doorToDoor: "Банкоматы",
@@ -145,7 +145,7 @@ export default {
   yourMessage: "Ваше сообщение *",
   enterTextFromImage: "Введите текст с изображения *",
   send: "Отправить",
-  coverageAreaTitle: "Зоны покрытия Banking Technology",
+  coverageAreaTitle: "Зоны покрытия Globe Sys Support",
   coverageServiceTitle: "Зоны обслуживания на карте",
 
   region: "г. Ташкент, Шайхантахурский р-н, ул. Кодирий 78.",
@@ -278,7 +278,7 @@ export default {
   moreDetails: "Подробнее",
 
   contactName: "БЕКМИРЗAЕВA УМИДA AБДУҒAНИ ҚИЗИ",
-  contactStatus: 'Юрист консультант OOO "BANKING TECHNOLOGY"',
+  contactStatus: 'Юрист консультант OOO "Globe Sys Support"',
   contactTell: "(+99871) 203-82-28 (внут:4014)",
   contactName2: "ХАСАНОВ ДИЛШОД БАХОДИРОВИЧ",
   contactStatus2: "Директор ООО “GLOBE SYS SUPPORT”",
@@ -288,21 +288,21 @@ export default {
   contactTell3: "+998 99 897 53 96",
   contactName4: "ТОЛЯГАНОВ ЖАСУР ДИЛЬШОД УГЛИ",
   contactStatus4:
-    'Начальник отдела по сервисному обслуживанию банкоматов ООО "BANKING TECHNOLOGY"',
+    'Начальник отдела по сервисному обслуживанию банкоматов ООО "Globe Sys Support"',
   contactTell4: "(+998 71) 203-81-18 (внут:4007)",
   contactName5: "ХОЛМАТОВ АЛИШЕР ШАХОБИТДИНОВИЧ",
-  contactStatus5: 'Региональный менеджер ООО "BANKING TECHNOLOGY"',
+  contactStatus5: 'Региональный менеджер ООО "Globe Sys Support"',
   contactTell5: "(+998 71) 203-81-18 (внут:4008) 88 115-01-26",
   contactName6: "TOYIROV KOZIMJON QOSIMJON O‘G‘LI",
   contactStatus6:
-    'Начальник Отдела Мониторинга и анализа OOO "BANKING TECHNOLOGY"',
+    'Начальник Отдела Мониторинга и анализа OOO "Globe Sys Support"',
   contactTell6: "(+99871) 203-83-38 (внут:4009)",
   contactName7: "ЮЛДАШЕВ ДОНИЁРБЕК ДАВРОНБЕКОВИЧ",
   contactStatus7:
-    'Начальник отдела по ремонту POS терминалов, модульных частей банкоматов и инфокиосков OOO "BANKING TECHNOLOGY"',
+    'Начальник отдела по ремонту POS терминалов, модульных частей банкоматов и инфокиосков OOO "Globe Sys Support"',
   contactTell7: "(+998 71) 203-83-38 (внут:4012)",
   contactName8: "БАХРАМОВА НАДЕЖДА ТАЛАТОВНА",
-  contactStatus8: 'Главный бухгалтер OOO "BANKING TECHNOLOGY"',
+  contactStatus8: 'Главный бухгалтер OOO "Globe Sys Support"',
   contactTell8: "(+998 71) 203-28-82 (внут:4005)",
   contactName9: "ТОЙИРОВ КОЗИМЖОН КОСИМЖОН УГЛИ",
   contactStatus9: "Заместитель директора по техническим вопросам",
@@ -319,10 +319,10 @@ export default {
 
   contactName11: "УСЕРБAЙЕВ НУРПЕИС БУТAБAЙЕВИЧ",
   contactStatus11:
-    'Начальник отдела технической поддержки OOO "BANKING TECHNOLOGY"',
+    'Начальник отдела технической поддержки OOO "Globe Sys Support"',
   contactTell11: "(+998 90) 014-03-30",
 
-  tariffsAndServicesTitle: "Тарифы и услуги Banking Technology",
+  tariffsAndServicesTitle: "Тарифы и услуги Globe Sys Support",
   tariffsAndServicesText:
     "Дебетовая карта– это платежная карта определенного банка, которая привязывается к расчетному счету ее держателя.\n" +
     "\n" +

@@ -3,7 +3,7 @@ import uz from "../plugins/vee-validate/UzValidateMessage.json";
 export default {
   validation: uz.messages,
 
-  mainTitle: "Banking technology - atm pos-terminal infokiosk",
+  mainTitle: "Globe Sys Support - atm pos-terminal infokiosk",
   home: "Bosh sahifa",
   tariffsAndServices: "Tarif va xizmatlar",
   news: "Yangiliklar",
@@ -85,7 +85,7 @@ export default {
   selectList: "Ro'yxatdan tanlang",
   learnMore: "Batafsil ma'lumot",
   goodsDelivered: "Yetkazib berilgan tovarlar soni",
-  serviceCompany: "Banking technology",
+  serviceCompany: "Globe Sys Support",
   latestNews: "So'ngi yangiliklar",
 
   doorToDoor: "Bankomatlar",
@@ -138,7 +138,7 @@ export default {
   yourMessage: "Sizning xabaringiz *",
   enterTextFromImage: "Rasmdan matn kiriting *",
   send: "Yuborish",
-  coverageAreaTitle: "Banking Technology qoplangan maydoni",
+  coverageAreaTitle: "Globe Sys Support qoplangan maydoni",
   coverageAreaText:
     "Texnologik taraqqiyotning bevosita ishtirokchilarini juda ijobiy nuqtai nazardan ko'rsatish mumkin. Foydalanuvchilarning tajribasini yaxshilashga intilib, biz Internet -tahlillardan olingan xulosalarni o'ziga xos turdagi klasterlarga birlashtirish imkoniyatini qo'ldan boy beramiz. Banal, ammo rad etib bo'lmaydigan xulosalar, shuningdek, yirik kompaniyalar aktsiyadorlari axloq va axloqning umuminsoniy me'yorlarini buzgan deb e'lon qilindi. Zamonaviy standartlar spetsifikatsiyasi doirasida fanda totalitarizm tarafdorlari global iqtisodiy tarmoqni tashkil qiladilar va shu bilan birga kulgiga aylanadilar, garchi ularning mavjudligi jamiyatga shubhasiz foyda keltiradi. Har birimiz aniq narsani tushunamiz: pozitsiyani shakllantirish bo'yicha kundalik ishning boshlanishi qulay istiqbollarni amalga oshirish uchun juda mos keladi.",
   search: "Qidiruv",
@@ -269,7 +269,7 @@ export default {
 
   moreDetails: "Batafsil ma'lumot",
   contactName: "BEKMIRZAYEVA UMIDA ABDUG'ANI QIZI",
-  contactStatus: '"BANKING TECHNOLOGY" MChJ Yurist maslahatchisi',
+  contactStatus: '"Globe Sys Support" MChJ Yurist maslahatchisi',
   contactTell: "(+99871) 203-82-28 (ichki:4014)",
   contactName2: "HASANOV DILSHOD BAHODIR O‘G‘LI",
   contactStatus2: '"GLOBE SYS SUPPORT" MChJ rahbari o\'rinbosari',
@@ -279,21 +279,21 @@ export default {
   contactTell3: "+998 99 897 53 96",
   contactName4: "TOLAGANOV JASUR DILSHOD O'G'LI",
   contactStatus4:
-    "“BANKING TECHNOLOGY” MChJ bankomatlarga xizmat ko‘rsatish bo‘limi boshlig‘i",
+    "“Globe Sys Support” MChJ bankomatlarga xizmat ko‘rsatish bo‘limi boshlig‘i",
   contactTell4: " (+998 71) 203-81-18 (ichki:4007)",
   contactName5: "GABRIYELYAN ARMEN SHMAVONOVICH",
   contactStatus5: "Salomatlik va xavfsizlik bo'yicha mutaxassis",
   contactTell5: "(+998 71) 203-81-18 (ichki:4008) 88 115-01-26",
   contactName6: "TOYIROV KOZIMJON QOSIMJON O'G'LI",
   contactStatus6:
-    '"BANKING TECHNOLOGY" MChJ Monitoring va tahlil bo‘limi boshlig‘i',
+    '"Globe Sys Support" MChJ Monitoring va tahlil bo‘limi boshlig‘i',
   contactTell6: "(+99871) 203-83-38 (ichki:4009)",
   contactName7: "YOLDOSHEV DONIYORBEK DAVRONBEKOVICH",
   contactStatus7:
-    "\"BANKING TECHNOLOGY\" MChJ Bankomatlar-Infokiosklarning modulli qismlari, POS terminallarni ta'mirlash bo'limi boshlig’i",
+    "\"Globe Sys Support\" MChJ Bankomatlar-Infokiosklarning modulli qismlari, POS terminallarni ta'mirlash bo'limi boshlig’i",
   contactTell7: "(+998 71) 203-83-38 (ichki:4012)",
   contactName8: "BAXRAMOVA NADEJDA TALATOVNA",
-  contactStatus8: '"BANKING TECHNOLOGY" MChJ bosh hisobchisi',
+  contactStatus8: '"Globe Sys Support" MChJ bosh hisobchisi',
   contactTell8: "(+998 71) 203-28-82 (внут:4005)",
   contactName9: "TOYIROV KOZIMJON QOSIMJON O‘G‘LI",
   contactStatus9: "Texnik ishlar bo'yicha direktor o'rinbosari",
@@ -304,13 +304,13 @@ export default {
   contactTell10: "(+998 71) 203-83-38 (ichki:4444) 90 013-33-33",
   contactName11: "USERBAYEV NURPEIS BUTABAYEVICh",
   contactStatus11:
-    "\"BANKING TECHNOLOGY\" MChJ Texnik ta'minot bo'limi boshlig'i",
+    "\"Globe Sys Support\" MChJ Texnik ta'minot bo'limi boshlig'i",
   contactTell11: "(+998 90) 014-03-30",
   contactName12: "VALIYEV AZIZ AKMALOVICH",
   contactStatus12:
     "Ichki bozorning yirik mijozlari bo'yicha direktor maslahatchisi",
   contactTell12: "(+998 90) 918-88-28",
-  tariffsAndServicesTitle: "Banking Technology ning tarif va xizmatlari",
+  tariffsAndServicesTitle: "Globe Sys Support ning tarif va xizmatlari",
   tariffsAndServicesText:
     "Texnologik taraqqiyotning bevosita ishtirokchilarini juda ijobiy nuqtai nazardan ko'rsatish mumkin. Foydalanuvchilar tajribasini yaxshilashga intilib, biz Internet -tahlillardan olingan xulosalarni o'z turkumidagi barcha klasterlarga birlashtirish mumkinligini unutamiz. Banal, ammo rad etib bo'lmaydigan xulosalar, shuningdek, yirik kompaniyalar aktsiyadorlari axloq va axloqning umuminsoniy me'yorlarini buzgan deb e'lon qilindi. Zamonaviy standartlar spetsifikatsiyasi doirasida fanda totalitarizm tarafdorlari global iqtisodiy tarmoqni tashkil qiladilar va shu bilan birga kulgiga aylanadilar, garchi ularning mavjudligi jamiyatga shubhasiz foyda keltiradi. Har birimiz aniq narsani tushunamiz: pozitsiyani shakllantirish bo'yicha kundalik ishning boshlanishi qulay istiqbollarni amalga oshirish uchun juda mos keladi.",
   weight: "Og'irligi",

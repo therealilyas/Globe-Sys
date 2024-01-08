@@ -23,7 +23,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Banking technology repair spare part atm pos-terminal infokiosk ремонт запчасть банкомат инфокиоск pos-терминала",
+          "Globe Sys Support repair spare part atm pos-terminal infokiosk ремонт запчасть банкомат инфокиоск pos-терминала",
       },
       {
         hid: "key",
@@ -34,7 +34,7 @@ export default {
       {
         hid: "image",
         name: "image",
-        content: "/img/favicon.png",
+        content: "favicon.ico",
       },
       // Twitter
       // Test on: https://cards-dev.twitter.com/validator
@@ -47,7 +47,7 @@ export default {
       {
         hid: "twitter:url",
         name: "twitter:url",
-        content: "https://btech.uz",
+        content: "https://gsys.uz",
       },
       {
         hid: "twitter:title",
@@ -58,29 +58,29 @@ export default {
         hid: "twitter:description",
         name: "twitter:description",
         content:
-          "Banking technology repair spare part atm pos-terminal infokiosk ремонт запчасть банкомат инфокиоск pos-терминала",
+          "Globe Sys Support repair spare part atm pos-terminal infokiosk ремонт запчасть банкомат инфокиоск pos-терминала",
       },
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "/img/favicon.png",
+        content: "favicon.ico",
       },
 
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
-      { hid: "og:url", property: "og:site_url", content: "https://btech.uz" },
+      { hid: "og:url", property: "og:site_url", content: "https://gsys.uz" },
       // {hid: "og:site_name", property: "og:site_name", content: "Banking-technology.uz"},
       {
         hid: "og:site_name",
         property: "og:site_name",
-        content: "banking technology",
+        content: "Globe Sys Support",
       },
       { hid: "og:type", property: "og:type", content: "website" },
 
       {
         hid: "og:url",
         property: "og:url",
-        content: "https://btech.uz",
+        content: "https://gsys.uz",
       },
       {
         hid: "og:title",
@@ -91,23 +91,23 @@ export default {
         hid: "og:description",
         property: "og:description",
         content:
-          "Banking technology repair spare part atm pos-terminal infokiosk ремонт запчасть банкомат инфокиоск pos-терминала",
+          "Globe Sys Support repair spare part atm pos-terminal infokiosk ремонт запчасть банкомат инфокиоск pos-терминала",
       },
       {
         hid: "og:image",
         property: "og:image",
-        content: "/img/favicon.png",
+        content: "favicon.ico",
       },
       {
         hid: "og:image:secure_url",
         property: "og:image:secure_url",
-        content: "https://btech.uz/favicon.png",
+        content: "favicon.ico",
       },
       {
         hid: "og:image:alt",
         property: "og:image:alt",
         content:
-          "Banking technology repair spare part atm pos-terminal infokiosk ремонт запчасть банкомат инфокиоск pos-терминала",
+          "Globe Sys Support repair spare part atm pos-terminal infokiosk ремонт запчасть банкомат инфокиоск pos-терминала",
       },
     ],
     link: [
