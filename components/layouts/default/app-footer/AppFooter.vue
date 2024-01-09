@@ -128,7 +128,7 @@
                     size="18"
                     color="#0E7DC2"
                   />
-                  info@btech.uz
+                  info@gsys.uz
                 </a>
               </li>
 

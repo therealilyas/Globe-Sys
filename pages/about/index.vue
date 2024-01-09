@@ -137,20 +137,17 @@ export default {
         },
       ],
       statistics: [
+        
         {
-          count: "230 +",
-          title: this.$t("satisfiedClients"),
-        },
-        {
-          count: "68 +",
+          count: "20 +",
           title: this.$t("perMonth"),
         },
         {
-          count: "130 +",
+          count: "20 +",
           title: this.$t("companyEmployees"),
         },
         {
-          count: "28",
+          count: "20",
           title: this.$t("branches"),
         },
       ],

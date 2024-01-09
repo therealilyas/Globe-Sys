@@ -91,15 +91,9 @@ export default {
     "Recovery of working capacity.\n" +
     "Repair work without the use of spare parts.\n" +
     "Repair work using serviceable spare parts of the CONTRACTOR or the CUSTOMER.",
-  doorToDoor2: "POS terminals",
+  doorToDoor2: "ATM monitoring",
   trainingFact2:
-    "Recovery.\n" +
-    "Carrying out preventive maintenance.\n" +
-    "Repair work without the use of spare parts.\n" +
-    "Repair work using serviceable spare parts of the CONTRACTOR or CUSTOMER.\n" +
-    "Diagnosis of faulty Equipment.\n",
-  doorToDoor3: "Infokiosks",
-  trainingFact3: "Services for maintenance and repair of banking equipment",
+    "ATM monitoring refers to the process of continuously monitoring Automated Teller Machines (ATMs) to ensure their smooth operation and security. It involves real-time monitoring of various aspects such as cash availability, transaction success rates, system performance, and security vulnerabilities. By monitoring ATMs, banks and financial institutions can proactively identify and resolve issues such as cash shortages, technical glitches, network connectivity problems, or potential security breaches. This helps in minimizing downtime, optimizing ATM performance, and ensuring a seamless banking experience for customers. Additionally, ATM monitoring plays a crucial role in preventing fraud, as it enables early detection of any suspicious activities or tampering attempts. Overall, ATM monitoring is essential for maintaining the reliability, efficiency, and security of ATM networks.",
   doorToDoor4: "From door to door",
 
   express: "RELIABLE",
@@ -267,10 +261,10 @@ export default {
   contactName: "BEKMIRZAYEVA UMIDA ABDUGANI KIZI",
   contactStatus: 'Head of Lawyer consultant of "Globe Sys Support" LLC,',
   contactTell: "(+99871) 203-82-28 (extension:4014)",
-  contactName2: "HASANOV DILSHOD BAHODIR UGLI",
+  contactName2: "HASANOV DILSHOD",
   contactStatus2: 'Head of "GLOBE SYS SUPPORT" LLC',
   contactTell2: "+998 90 013 33 33",
-  contactName3: "MIRYUNUSOV MIRFOZIL MIRSAMUGOVICH",
+  contactName3: "MIRYUNUSOV MIRFOZIL",
   contactStatus3: "Chief Accountant",
   contactTell3: "+998 99 897 53 96",
   contactName4: "TULAGANOV JASUR DILSHOD OGLI",
@@ -290,8 +284,8 @@ export default {
   contactName8: "BAKHRAMOVA NADEJDA TALATOVNA",
   contactStatus8: 'Head of accountant of "Globe Sys Support" LLC',
   contactTell8: "(+998 71) 203-28-82 (extension:4005)",
-  contactName9: "TOYIROV KOZIMJON QOSIMJON UGLI",
-  contactStatus9: "Deputy Director for Technical Affairs",
+  contactName9: "TOYIROV KOZIMJON",
+  contactStatus9: "Technical Director",
   contactTell9: "+998 90 004 42 42",
   contactName10: "KHASANOV DILSHOD BAKHODIR OGLI",
   contactStatus10:

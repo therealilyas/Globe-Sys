@@ -36,46 +36,27 @@
             url3: 'aloqa',
           },
           {
-            url: 'kapitalbank',
+            url: 'agro',
             url2: 'davrbank',
             url3: 'hamkorbank',
           },
           {
             url: 'anorbank',
-            url2: 'ipoteka',
-            url3: 'agro',
+            url2: 'ravnaq',
+            url3: 'ipoteka',
           },
           {
             url: 'ziraat',
-            url2: 'uzkdb',
-            url3: 'ravnaq',
+            url2: 'kapitalbank',
+            url3: 'ofb',
           },
           {
             url: 'aab',
             url2: 'infinbank',
             url3: 'qqb',
           },
-          {
-            url: 'mib',
-            url2: 'turon',
-            url3: 'xalqbank',
-          },
-          {
-            url: 'mikrokreditbank',
-            url2: 'nbu',
-            url3: 'ofb',
-          },
-          {
-            url: 'poytaxt',
-            url2: 'universalbank',
-            url3: 'saderat',
-
-          },
-          {
-            url: 'asakabank',
-            url2: '',
-            url3: '',
-          },
+          
+         
         ]
       }
     }

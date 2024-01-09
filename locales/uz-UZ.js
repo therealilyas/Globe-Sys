@@ -94,16 +94,12 @@ export default {
     "Ish qobiliyatini tiklash.\n" +
     "Ehtiyot qismlardan foydalanmasdan ta'mirlash ishlari.\n" +
     "PUDRATCHI yoki Buyurtmachining xizmat ko'rsatish mumkin bo'lgan ehtiyot qismlaridan foydalangan holda ta'mirlash ishlari.",
-  doorToDoor2: "POS terminallar",
+  doorToDoor2: "ATM monitoringi",
   trainingFact2:
-    "Qayta tiklash.\n" +
-    "Profilaktik ta'mirlashni amalga oshirish.\n" +
-    "Ehtiyot qismlardan foydalanmasdan ta'mirlash ishlari.\n" +
-    "Ta'mirlash ishlarini PUDRATCHI yoki Buyurtmachining xizmat ko'rsatish mumkin bo'lgan ehtiyot qismlaridan foydalaning.\n" +
-    "Nosoz uskunalar diagnostikasi.\n",
-  doorToDoor3: "Infokioskalar",
+    "ATM monitoringi avtomatlashtirilgan pullik mashinalarni (bankomatlar) uzluksiz ishlashi va xavfsizligini ta'minlash uchun doimiy monitoring qilish jarayonini anglatadi. Bu naqd pul mavjudligi, tranzaksiya muvaffaqiyati stavkalari, tizim ishlashi va xavfsizlik zaifliklari kabi turli jihatlarning real vaqt rejimida monitoringini o'z ichiga oladi. Bankomatlarni monitoring qilish orqali banklar va moliya institutlari naqd pul taqchilligi, texnik nosozliklar, tarmoq ulanishi muammolari yoki mumkin bo'lgan xavfsizlik buzilishlari kabi muammolarni faol ravishda aniqlashlari va hal qilishlari mumkin. Bu ishlamay qolish vaqtini kamaytirishga, bankomatlar ishini optimallashtirishga va mijozlar uchun uzluksiz bank tajribasini ta'minlashga yordam beradi. Bundan tashqari, bankomatlarning monitoringi firibgarlikning oldini olishda muhim rol o'ynaydi, chunki u har qanday shubhali harakatlar yoki buzish urinishlarini erta aniqlash imkonini beradi. Umuman olganda, ATM monitoringi bankomat tarmoqlarining ishonchliligi, samaradorligi va xavfsizligini ta'minlash uchun zarurdir.",
+  doorToDoor3: "Datacard",
   trainingFact3:
-    "Bank uskunalariga texnik xizmat ko'rsatish va ta'mirlash xizmatlari",
+    "Datacard® CE840™ tezkor emissiya tizimi yordamida mijozlarni hayratda qoldirish va yangi daromad olish uchun kuchga ega bo'ling. Bu hamyonbop va o‘ta ishonchli ish stoli tizimi firibgarlikdan himoyalanish va karta ko‘rinishini yaxshilash uchun yuqori sifatli bo‘rttirma, chekinish va magnit chiziqli kodlashni taklif etadi. Ixtiyoriy to‘g‘ridan-to‘g‘ri kartaga rangli chop etish va smart-kartani shaxsiylashtirish ushbu modulli tizimga moslashuvchanlikni oshiradi. CE840 tizimi yangi dasturlarni amalga oshirish yoki mijozlarni jalb qilishni keyingi bosqichga olib chiqmoqchi bo'lgan banklar, chakana sotuvchilar va boshqa karta emitent tashkilotlari uchun ideal foydalanuvchilarga internetni ko'rib chiqish, elektron pochta xabarlarini yuborish, media oqimlarini uzatish va turli onlayn harakatlarni amalga oshirish imkonini beruvchi ulanish o'rnatish. Ular sayohat paytida yoki Wi-Fi mavjud bo'lmagan joylarda Internetga kirishga muhtoj bo'lgan shaxslar uchun idealdir. Data kartalari bilan aloqada qolish hech qachon oson bo'lmagan.",
   doorToDoor4: "Eshikdan eshikka",
 
   express: "ISHONCHLI",
@@ -271,10 +267,10 @@ export default {
   contactName: "BEKMIRZAYEVA UMIDA ABDUG'ANI QIZI",
   contactStatus: '"Globe Sys Support" MChJ Yurist maslahatchisi',
   contactTell: "(+99871) 203-82-28 (ichki:4014)",
-  contactName2: "HASANOV DILSHOD BAHODIR O‘G‘LI",
+  contactName2: "HASANOV DILSHOD",
   contactStatus2: '"GLOBE SYS SUPPORT" MChJ rahbari o\'rinbosari',
   contactTell2: "+998 90 013 33 33",
-  contactName3: "MIRYUNUSOV MIRFOZIL MIRSAMUGOVICH",
+  contactName3: "MIRYUNUSOV MIRFOZIL",
   contactStatus3: "Bosh hisobchi",
   contactTell3: "+998 99 897 53 96",
   contactName4: "TOLAGANOV JASUR DILSHOD O'G'LI",
@@ -295,8 +291,8 @@ export default {
   contactName8: "BAXRAMOVA NADEJDA TALATOVNA",
   contactStatus8: '"Globe Sys Support" MChJ bosh hisobchisi',
   contactTell8: "(+998 71) 203-28-82 (внут:4005)",
-  contactName9: "TOYIROV KOZIMJON QOSIMJON O‘G‘LI",
-  contactStatus9: "Texnik ishlar bo'yicha direktor o'rinbosari",
+  contactName9: "TOYIROV KOZIMJON",
+  contactStatus9: "Texnik direktor",
   contactTell9: "+998 90 004 42 42",
   contactName10: "XАSАNOV DILShOD BАXODIR OʼGʼLI",
   contactStatus10:

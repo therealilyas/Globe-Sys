@@ -32,7 +32,7 @@
               <div class="services__card-bg">
                 <img
                   v-if="item.image_url"
-                  :src="`/img/${item.image_url}.jpg`"
+                  :src="`${item.image_url}`"
                   alt=""
                 />
               </div>
@@ -98,22 +98,22 @@ export default {
     return {
       items: [
         {
-          image_url: "ddd",
-          icon_url: "bankomat",
+          image_url: "https://mms.businesswire.com/media/20230725542632/en/1848761/5/Cajera_Pivot_Family_-_Cajera_Plus_Cajera_Pivot_IV%2C_Cajera_Pivot_II-III_-_small_for_businesswire.jpg",
+        
           title: this.$t("doorToDoor"),
           description: this.$t("trainingFact3"),
           category_name: this.$t("express"),
         },
         {
-          image_url: "photo_2023-06-20_12-26-57",
-          icon_url: "terminal",
+          image_url: "https://www.kofrimpong.com/wp-content/uploads/2018/12/atm-monitoring-dashboard.png",
+          
           title: this.$t("doorToDoor2"),
           description: this.$t("trainingFact2"),
           category_name: this.$t("standard"),
         },
         {
-          image_url: "kiosk",
-          icon_url: "kiosk",
+          image_url: "https://www.datacardshop.com/images/thumbnails/0/775/700/CE840_SideOpen_1140X1083.jpg",
+         
           title: this.$t("doorToDoor3"),
           description: this.$t("trainingFact3"),
           category_name: this.$t("carGo"),

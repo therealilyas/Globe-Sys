@@ -86,7 +86,7 @@ export default {
       about: {
         sub_title: this.$t("aboutSubtitle"),
         description: this.$t("aboutDescription"),
-        count: "92 854",
+        count: "200 000",
         front: "a.jpg",
         back: "b.jpg",
       },

@@ -397,7 +397,7 @@ export default {
   float: left;
   margin: 0 5px;
   padding: 8px 16px;
-  border-radius: 3px;
+  border-radius: 5px;
   color: #fff;
   font-size: 14px;
   line-height: 18px;

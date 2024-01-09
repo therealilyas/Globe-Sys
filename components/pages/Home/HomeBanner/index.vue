@@ -1,5 +1,5 @@
 <template>
-  <section class="main-banner" style="background-image: url('/img/ddd.jpg')">
+  <section class="main-banner" style="background-image: url('https://erepublic.brightspotcdn.com/dims4/default/f58867e/2147483647/strip/true/crop/961x501+0+64/resize/840x438!/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.us-west-2.amazonaws.com%2F60%2Fdd%2F89dc5502b4e6e4ceacae32eff97f%2Fcybersecurity-shutterstock-1027230877.JPG')">
     <div class="container">
       <div class="main-banner__wrap">
         <div class="main-banner__content">
@@ -76,20 +76,17 @@ export default {
   data() {
     return {
       statistics: [
+     
         {
-          count: "230 +",
-          title: this.$t("satisfiedClients"),
-        },
-        {
-          count: "68 +",
+          count: "20 +",
           title: this.$t("perMonth"),
         },
         {
-          count: "130 +",
+          count: "20 +",
           title: this.$t("companyEmployees"),
         },
         {
-          count: "28",
+          count: "15",
           title: this.$t("branches"),
         },
       ],
